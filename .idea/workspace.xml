@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="582e763c-30f0-4ece-bd1d-9da02f123b86" name="Default Changelist" comment="PyQt5 2023/03/20">
+      <change afterPath="$PROJECT_DIR$/src/main/MenuAndTools/Menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,7 @@
       <recent name="F:\CodeG50\pyqtLearn\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.StatusMessage">
+  <component name="RunManager" selected="Python.Menu">
     <configuration name="Example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyqtLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HorizontalLayOut" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyqtLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,12 +101,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/LayOut" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/MenuAndTools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/LayOut/HorizontalLayOut.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/MenuAndTools/Menu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Menu" />
         <item itemvalue="Python.StatusMessage" />
         <item itemvalue="Python.Example" />
         <item itemvalue="Python.GridLayout" />
         <item itemvalue="Python.VerticalLayOut" />
-        <item itemvalue="Python.HorizontalLayOut" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +184,7 @@
       <workItem from="1679283093824" duration="1130000" />
       <workItem from="1679284240957" duration="45000" />
       <workItem from="1679284294725" duration="14000" />
-      <workItem from="1679284309890" duration="523000" />
+      <workItem from="1679284309890" duration="837000" />
     </task>
     <task id="LOCAL-00001" summary="PyQt5 布局">
       <created>1679161416530</created>
@@ -248,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679284387803</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="PyQt5 2023/03/20">
+      <created>1679284977216</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679284977216</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +313,7 @@
     <SUITE FILE_PATH="coverage/pyqtLearn$AboutIcon.coverage" NAME="AboutIcon Coverage Results" MODIFIED="1679261359347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/Basic" />
     <SUITE FILE_PATH="coverage/pyqtLearn$RunMainWinFormLayout.coverage" NAME="RunMainWinFormLayout Coverage Results" MODIFIED="1679159077728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer/Layout" />
     <SUITE FILE_PATH="coverage/pyqtLearn$GridLayout.coverage" NAME="GridLayout Coverage Results" MODIFIED="1679279396501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/LayOut" />
+    <SUITE FILE_PATH="coverage/pyqtLearn$Menu.coverage" NAME="Menu Coverage Results" MODIFIED="1679285152254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/MenuAndTools" />
     <SUITE FILE_PATH="coverage/pyqtLearn$RunMainWinVerticalLayout.coverage" NAME="RunMainWinVerticalLayout Coverage Results" MODIFIED="1679169370819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer/Layout" />
     <SUITE FILE_PATH="coverage/pyqtLearn$VerticalLayOut.coverage" NAME="VerticalLayOut Coverage Results" MODIFIED="1679279154664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/LayOut" />
     <SUITE FILE_PATH="coverage/pyqtLearn$StatusMessage.coverage" NAME="StatusMessage Coverage Results" MODIFIED="1679282964319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/MenuAndTools" />
