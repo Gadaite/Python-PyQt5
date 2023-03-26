@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="582e763c-30f0-4ece-bd1d-9da02f123b86" name="Default Changelist" comment="PyQt5 2023/03/20">
-      <change afterPath="$PROJECT_DIR$/src/Other/zipDemo.py" afterDir="false" />
+    <list default="true" id="582e763c-30f0-4ece-bd1d-9da02f123b86" name="Default Changelist" comment="PyQt5 2023/03/25">
+      <change afterPath="$PROJECT_DIR$/src/main/MenuAndTools/MainWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/MenuAndTools/RightClickMenu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/MenuAndTools/SonMenu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/MenuAndTools/TickMenu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/MenuAndTools/ToolMenu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -48,52 +52,8 @@
       <recent name="F:\CodeG50\pyqtLearn\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SQLchange">
-    <configuration name="AboutCloseWin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pyqtLearn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/Basic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/Basic/AboutCloseWin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="AboutIcon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pyqtLearn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/Basic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/Basic/AboutIcon.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.MainWindow">
+    <configuration name="MainWindow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyqtLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,7 +66,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/MenuAndTools/Menu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/MenuAndTools/MainWindow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SQLchange" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RightClickMenu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyqtLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,12 +83,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Other" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/MenuAndTools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Other/SQLchange.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/MenuAndTools/RightClickMenu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zipDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SonMenu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyqtLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,12 +105,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Other" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/MenuAndTools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Other/zipDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/MenuAndTools/SonMenu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TickMenu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyqtLearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/MenuAndTools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/MenuAndTools/TickMenu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ToolMenu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyqtLearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/MenuAndTools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/MenuAndTools/ToolMenu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SQLchange" />
-        <item itemvalue="Python.zipDemo" />
-        <item itemvalue="Python.AboutIcon" />
-        <item itemvalue="Python.AboutCloseWin" />
-        <item itemvalue="Python.Menu" />
+        <item itemvalue="Python.MainWindow" />
+        <item itemvalue="Python.ToolMenu" />
+        <item itemvalue="Python.RightClickMenu" />
+        <item itemvalue="Python.TickMenu" />
+        <item itemvalue="Python.SonMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +189,8 @@
       <workItem from="1679284240957" duration="45000" />
       <workItem from="1679284294725" duration="14000" />
       <workItem from="1679284309890" duration="11502000" />
-      <workItem from="1679503799323" duration="4320000" />
+      <workItem from="1679503799323" duration="6700000" />
+      <workItem from="1679796892674" duration="2552000" />
     </task>
     <task id="LOCAL-00001" summary="PyQt5 布局">
       <created>1679161416530</created>
@@ -264,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679285255707</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="PyQt5 2023/03/25">
+      <created>1679741869501</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679741869501</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,22 +310,27 @@
     <MESSAGE value="PyQt5 布局" />
     <MESSAGE value="PyQt5 2023/03/19" />
     <MESSAGE value="PyQt5 2023/03/20" />
-    <option name="LAST_COMMIT_MESSAGE" value="PyQt5 2023/03/20" />
+    <MESSAGE value="PyQt5 2023/03/25" />
+    <option name="LAST_COMMIT_MESSAGE" value="PyQt5 2023/03/25" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyqtLearn$AboutCenterPos.coverage" NAME="AboutCenterPos Coverage Results" MODIFIED="1679262214019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/Basic" />
+    <SUITE FILE_PATH="coverage/pyqtLearn$MainWindow.coverage" NAME="MainWindow Coverage Results" MODIFIED="1679800159461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/MenuAndTools" />
+    <SUITE FILE_PATH="coverage/pyqtLearn$ToolMenu.coverage" NAME="ToolMenu Coverage Results" MODIFIED="1679800096436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/MenuAndTools" />
     <SUITE FILE_PATH="coverage/pyqtLearn$RunMainQtWebEngineWidgets.coverage" NAME="RunMainQtWebEngineWidgets Coverage Results" MODIFIED="1679171524243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer/WebEngine" />
     <SUITE FILE_PATH="coverage/pyqtLearn$zipDemo.coverage" NAME="zipDemo Coverage Results" MODIFIED="1679505431214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Other" />
     <SUITE FILE_PATH="coverage/pyqtLearn$RunMainSpace.coverage" NAME="RunMainSpace Coverage Results" MODIFIED="1679172219330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer/space" />
+    <SUITE FILE_PATH="coverage/pyqtLearn$TickMenu.coverage" NAME="TickMenu Coverage Results" MODIFIED="1679799649650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/MenuAndTools" />
+    <SUITE FILE_PATH="coverage/pyqtLearn$RightClickMenu.coverage" NAME="RightClickMenu Coverage Results" MODIFIED="1679799922411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/MenuAndTools" />
     <SUITE FILE_PATH="coverage/pyqtLearn$RunMainWinVHLayout__1_.coverage" NAME="RunMainWinVHLayout (1) Coverage Results" MODIFIED="1679166040039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer/Layout" />
     <SUITE FILE_PATH="coverage/pyqtLearn$RunPushButtonDefaultSize.coverage" NAME="RunPushButtonDefaultSize Coverage Results" MODIFIED="1679187482264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer/SizePolicy" />
     <SUITE FILE_PATH="coverage/pyqtLearn$RunMainWinContainer.coverage" NAME="RunMainWinContainer Coverage Results" MODIFIED="1679165159844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer/Container" />
-    <SUITE FILE_PATH="coverage/pyqtLearn$QuickStart.coverage" NAME="QuickStart Coverage Results" MODIFIED="1679260622627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main" />
+    <SUITE FILE_PATH="coverage/pyqtLearn$QuickStart.coverage" NAME="QuickStart Coverage Results" MODIFIED="1679742383437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main" />
     <SUITE FILE_PATH="coverage/pyqtLearn$RunMainPartner.coverage" NAME="RunMainPartner Coverage Results" MODIFIED="1679207058564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer/partner" />
     <SUITE FILE_PATH="coverage/pyqtLearn$GridLayout.coverage" NAME="GridLayout Coverage Results" MODIFIED="1679279396501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/LayOut" />
     <SUITE FILE_PATH="coverage/pyqtLearn$RunMainWinVerticalLayout.coverage" NAME="RunMainWinVerticalLayout Coverage Results" MODIFIED="1679169370819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer/Layout" />
     <SUITE FILE_PATH="coverage/pyqtLearn$VerticalLayOut.coverage" NAME="VerticalLayOut Coverage Results" MODIFIED="1679279154664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/LayOut" />
-    <SUITE FILE_PATH="coverage/pyqtLearn$StatusMessage.coverage" NAME="StatusMessage Coverage Results" MODIFIED="1679282964319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/MenuAndTools" />
+    <SUITE FILE_PATH="coverage/pyqtLearn$StatusMessage.coverage" NAME="StatusMessage Coverage Results" MODIFIED="1679798657263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/MenuAndTools" />
     <SUITE FILE_PATH="coverage/pyqtLearn$PushButtonDefaultSize.coverage" NAME="PushButtonDefaultSize Coverage Results" MODIFIED="1679173695917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer/SizePolicy" />
     <SUITE FILE_PATH="coverage/pyqtLearn$AboutTip.coverage" NAME="AboutTip Coverage Results" MODIFIED="1679261527006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/Basic" />
     <SUITE FILE_PATH="coverage/pyqtLearn$AboutMessageBox.coverage" NAME="AboutMessageBox Coverage Results" MODIFIED="1679262002233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/Basic" />
@@ -321,11 +338,12 @@
     <SUITE FILE_PATH="coverage/pyqtLearn$AboutCloseWin.coverage" NAME="AboutCloseWin Coverage Results" MODIFIED="1679317357584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/Basic" />
     <SUITE FILE_PATH="coverage/pyqtLearn$Example.coverage" NAME="Example Coverage Results" MODIFIED="1679280035279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/LayOut" />
     <SUITE FILE_PATH="coverage/pyqtLearn$RunMainWinHorizontalLayout.coverage" NAME="RunMainWinHorizontalLayout Coverage Results" MODIFIED="1679155864141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/pyqtLearn$SonMenu.coverage" NAME="SonMenu Coverage Results" MODIFIED="1679799550220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/MenuAndTools" />
     <SUITE FILE_PATH="coverage/pyqtLearn$AbsLayOut.coverage" NAME="AbsLayOut Coverage Results" MODIFIED="1679278295014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/LayOut" />
     <SUITE FILE_PATH="coverage/pyqtLearn$HorizontalLayOut.coverage" NAME="HorizontalLayOut Coverage Results" MODIFIED="1679278906736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/LayOut" />
     <SUITE FILE_PATH="coverage/pyqtLearn$RunMainWinVHLayout.coverage" NAME="RunMainWinVHLayout Coverage Results" MODIFIED="1679170737406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer/Layout" />
     <SUITE FILE_PATH="coverage/pyqtLearn$AboutIcon.coverage" NAME="AboutIcon Coverage Results" MODIFIED="1679320801005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/Basic" />
     <SUITE FILE_PATH="coverage/pyqtLearn$RunMainWinFormLayout.coverage" NAME="RunMainWinFormLayout Coverage Results" MODIFIED="1679159077728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer/Layout" />
-    <SUITE FILE_PATH="coverage/pyqtLearn$Menu.coverage" NAME="Menu Coverage Results" MODIFIED="1679311600540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/MenuAndTools" />
+    <SUITE FILE_PATH="coverage/pyqtLearn$Menu.coverage" NAME="Menu Coverage Results" MODIFIED="1679798519252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/MenuAndTools" />
   </component>
 </project>
